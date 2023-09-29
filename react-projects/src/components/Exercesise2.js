@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Exercesise2 = () => {
+const Exercesise2 = (props) => {
 const handleClick=()=>{
-    alert("clicked")
+    alert(`clicked ${props.id}`)
 }
   return (
 <div id="Exercesise1" className="w-full h-[900px] flex justify-center items-center ">
