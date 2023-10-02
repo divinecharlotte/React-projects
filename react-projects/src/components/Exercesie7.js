@@ -8,9 +8,7 @@ const Exercesie7 = () => {
     <div
     className="w-full h-[900px] flex flex-col " 
     >
-<FormData
-
- />
+<FormData />
 
     </div>
   )
