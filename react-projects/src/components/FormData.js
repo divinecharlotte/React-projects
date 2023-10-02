@@ -42,7 +42,7 @@ import {React,useState} from 'react'
         <button onClick={handleclick}
         className='bg-red-700 text-white px-16 py-2 '
          >
-            GREET me
+            GREET ME
             </button>
         </form> 
     </div>
