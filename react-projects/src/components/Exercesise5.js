@@ -1,10 +1,10 @@
 import React from 'react'
-
+import { nanoid } from 'nanoid'
 const Exercesise5 = () => {
-    const animals =['dog', 'cat', 'chicken', 'cow', 'sheep', 'horse']
+    const animals =[{id: nanoid(),name:'dog'}, {id: nanoid(),name:'cat'},{id: nanoid(),name:'chicken'}, {id: nanoid(),name:'cow'}, {id: nanoid(),name:'sheep'}, {id: nanoid(),name:'horse'}]
 
     const animal = animals.map((anim)=>{
-return (<li>֍{anim}</li>)
+return (<li key={anim.id}>֍{anim.name}</li>)
     })
   return (
     <div

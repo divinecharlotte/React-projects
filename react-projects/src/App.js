@@ -1,3 +1,4 @@
+import Exercesie7 from "./components/Exercesie7";
 import Exercesise1 from "./components/Exercesise1";
 import Exercesise2 from "./components/Exercesise2";
 import Exercesise3 from "./components/Exercesise3";
@@ -13,6 +14,8 @@ function App() {
     <Exercesise4/>
     <Exercesise5/>
     <Exercesise6/>
+    <Exercesie7/>
+
   </div>;
 }
 
