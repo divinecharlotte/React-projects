@@ -5,7 +5,8 @@ import Exercesise3 from "./components/Exercesise3";
 import Exercesise4 from "./components/Exercesise4";
 import Exercesise5 from "./components/Exercesise5";
 import Exercesise6 from "./components/Exercesise6";
-import Exercise8 from "./components/Exercise8";
+import Exercesise9 from "./components/Exercesise9";
+import Exercise8 from "./components/Exercise8"; 
 
 function App() {
   return <div className="App">
@@ -17,6 +18,7 @@ function App() {
     <Exercesise6/>
     <Exercesie7/>
     <Exercise8/>
+    <Exercesise9/>
   </div>;
 }
 
