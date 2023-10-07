@@ -1,12 +1,12 @@
-import { nanoid } from 'nanoid'
+import { nanoid } from "nanoid";
 
-const  animals = [{id: nanoid(),
-    img:"./dog.PNG",name:"dog"},
- {id: nanoid(),img:"./dog.PNG",name:"dog"},
- {id: nanoid(),img:"../dog.PNG",name:"dog"},
-  {id: nanoid(),img:"./dog.PNG",name:"dog"},
-   {id: nanoid(),img:"./dog.PNG",name:"dog"},
-    {id: nanoid(),img:"../dog.PNG",name:"dog"
-}]
+const animals = [
+  { id: nanoid(), img: "./dog.PNG", name: "dog" },
+  { id: nanoid(), img: "./dog.PNG", name: "dog" },
+  { id: nanoid(), img: "../dog.PNG", name: "dog" },
+  { id: nanoid(), img: "./dog.PNG", name: "dog" },
+  { id: nanoid(), img: "./dog.PNG", name: "dog" },
+  { id: nanoid(), img: "../dog.PNG", name: "dog" },
+];
 
-export default animals
+export default animals;
