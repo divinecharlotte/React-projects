@@ -8,6 +8,7 @@ import Exercesise5 from "./components/Exercesise5";
 import Exercesise6 from "./components/Exercesise6";
 import Exercesise9 from "./components/Exercesise9";
 import Exercise8 from "./components/Exercise8"; 
+import TodoApp from "./components/TodoApp";
 
 function App() {
   return <div className="App">
@@ -21,6 +22,7 @@ function App() {
     <Exercise8/>
     <Exercesise9/>
     <CalculatorParent/>
+    <TodoApp/>
   </div>;
 }
 
