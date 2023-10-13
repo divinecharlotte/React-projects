@@ -1,0 +1,33 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "calculatorapp",
+    "code-improvement",
+    "exercesise1",
+    "exercesise7",
+    "exercesise8",
+    "exercesise9",
+    "main",
+    "todo-app"
+  ],
+  "parent": {
+    "calculatorapp": "main",
+    "code-improvement": "main",
+    "exercesise1": "main",
+    "exercesise7": "main",
+    "exercesise8": "main",
+    "exercesise9": "main",
+    "main": null,
+    "todo-app": "main"
+  },
+  "order": [
+    "main",
+    "calculatorapp",
+    "code-improvement",
+    "exercesise1",
+    "exercesise7",
+    "exercesise8",
+    "exercesise9",
+    "todo-app"
+  ]
+}
